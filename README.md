@@ -40,7 +40,8 @@
   docker logs --tail <no of lines> --follow --timestamps <container_name>
 ```
 
-#Volumes Mounting
+#Volumes Mounting :
+
   You can specify in the docker file if you need to mount any directory or file to a container.
   
   ```
@@ -55,7 +56,7 @@
     //can be abolute path or relative paths. 
     //If you specify a relative path, docker will create directories for it in the current directory 
   ```
-  This will mount the directory specified in the <path outside container> to the <path inside container> in the container.
+  This will mount the directory specified in the ```<path outside container>``` to the ```<path inside container>``` in the container.
   
-  So, if you have a directory that contains files that you want to use inside a particular container, you can specify an **absolute path** to the directory that you want in the <path outside cotnainer> and then specify where you want it to be mounted in the directory inside the container in <path inside container>.
+  So, if you have a directory that contains files that you want to use inside a particular container, you can specify an **absolute path** to the directory that you want in the ```<path outside cotnainer>``` and then specify where you want it to be mounted in the directory inside the container in ```<path inside container>```.
   
