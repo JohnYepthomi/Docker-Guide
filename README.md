@@ -45,7 +45,7 @@
 
 # Volumes Mounting :
 
-  ### You can specify in the docker file if you need to mount any directory or file to a container.
+  ### You can specify directories in the ```docker-compose.yml``` file if you need to mount any directory or file to a container.
   
   ```
      volumes:
