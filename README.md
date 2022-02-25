@@ -42,11 +42,11 @@
 
 ## View logs of a container
 ```
-  docker logs
-  docker logs --tail <no of lines> --follow --timestamps <container_name>
+  docker logs <container_name_or_id>
+  docker logs --tail <no of lines> --follow --timestamps <container_name_or_id>
 ```
 
-# Volumes Mounting :
+# Volumes Mounting in ```docker-compose```:
 
   ### You can specify directories in the ```docker-compose.yml``` file if you need to mount any directory or file to a container.
   
