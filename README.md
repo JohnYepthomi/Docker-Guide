@@ -30,7 +30,7 @@
   docker exec -it <container_name_or_id> <command>
   //it stands for interactive mode
   
-  //get access to the bash sheel of the container to work with the mysql installed inside the container
+  //get access to the bash shell of the container to work with the mysql instance inside the container
   docker exec -it mysqlDB /bin/bash
 ```
 
