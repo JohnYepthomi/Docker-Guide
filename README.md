@@ -31,6 +31,7 @@
 ```
 
 ## Execute a command inside a particular container
+   We will use ```docker``` as we are targeting only a single Container. Remember, ```docker-compose``` is used for orchestration of multiple containers.
 ```
   docker exec -it <container_name_or_id> <command>
   //it stands for interactive mode
