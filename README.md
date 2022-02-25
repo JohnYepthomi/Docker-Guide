@@ -9,6 +9,8 @@
     - <container_name>
 ```
 
+**Note**: you need to implement your own retry logic in your applications running inside containers. A container being ```UP``` doesn't gurantee that the applications inside its container is ready to respond to requests.
+
 ## Run a Docker-compose Package
 ```
   docker-compose up -d
