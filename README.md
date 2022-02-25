@@ -1,6 +1,6 @@
 # A Guide to using Docker and Docker-Compose
 
-**Docker** is used to run individual containers managed by the user, whereas **Docker-compose** does all the container _orchestration_ as specified in the _dockerfile_. For example, you can configure a container wait for another container to be ready in the dockerfile by using 
+**Docker** is used to run individual containers managed manually by a user, whereas **Docker-compose** does all the container _orchestration_ as specified in the _docker-compose.yml_. For example, you can configure a container wait for another container to be ready in the dockerfile by using 
 ```
   depends_on:
     - <container_name>
