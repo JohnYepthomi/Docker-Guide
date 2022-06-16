@@ -65,4 +65,19 @@
   This will mount the directory specified in the ```<path outside container>``` to the ```<path inside container>``` in the container.
   
   So, if you have a directory that contains files that you want to use inside a particular container, you can specify an **absolute path** to the directory that you want in the ```<path outside cotnainer>``` and then specify where you want it to be mounted in the directory inside the container in ```<path inside container>```.
+
+##LIST CONTAINERS
+ `sudo docker container ls -a`
+
+##LIST IMAGES
+  `sudo docker image ls -a`
+
+##LIST ALL CONTAINERS (running/stopped):
+  `sudo docker ps -a`
+
+### CLEAN UP:
+  REMOVE A CONTAINER: 
+  `sudo docker container rm <container-name>`
   
+ REMOVE A DOCKER IMAGE:
+  `sudo docker image rm <container-name>`
