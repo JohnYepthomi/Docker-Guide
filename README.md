@@ -75,8 +75,7 @@
 ### LIST ALL CONTAINERS (running/stopped):
   `sudo docker ps -a`
 
-### CLEAN UP:
-  REMOVE A CONTAINER: 
+### REMOVE A CONTAINER: 
   `sudo docker container rm <container-name>`
   
 ### REMOVE A DOCKER IMAGE:
